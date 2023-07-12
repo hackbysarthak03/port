@@ -763,3 +763,110 @@ padding-left: 5%;
         font-size: 12px;
     }
 }
+@media(max-width:430px){
+    .navbar-ul{
+        display: none;
+    }
+    .navbar{
+        justify-content: end;
+        padding: 0px 20px;
+    }
+
+    .nav-btn{
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+        background-color: #4285F4;
+        margin-top: 25px;
+        position: fixed;
+         z-index: 999;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         cursor: pointer;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .item{
+        height: 130px;
+        width: 300px;
+        padding: 10px;
+    }
+
+    .first-head{
+        font-size: 22px;
+    }
+
+    .second-head{
+        font-size:15px;
+    }
+
+    .third-head{
+        font-size: 11px;
+    }
+
+    .fourth-head{
+        font-size: 12px;
+    }
+
+
+    .contact{
+        height: 120vh;
+    }
+
+    .contact-form form{
+        width: 260px;
+    }
+
+    .contact-form form textarea{
+        width: 260px;
+    }
+
+    .submit-btn{
+        height: 40px;
+        width: 180px;
+        font-size: 20px;
+    }
+
+    .connect-item{
+        height: 20px;
+    }
+    .connect{
+        gap: 20px;
+    }
+
+    .logo-text{
+        font-size: 15px;
+    }
+
+    .qualify{
+        height: 120vh;
+    }
+
+    .box3{
+        font-size: 50px;
+    }
+
+    .box4{
+        font-size: 18px;
+    }
+
+    .about{
+        height: 125vh;
+    }
+
+    .download{
+        height: 40px;
+        font-size: 17px;
+    }
+
+    .head2{
+        font-size: 30px;
+    }
+    .head3{
+        font-size: 20px;
+    }
+    .box1{
+        height: 80vh;
+    }
+}
