@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Forum&family=Jost&family=Lato&family=Poppins&family=Quicksand&fmaily=Pacifico&family=Roboto&family=Roboto+Condensed&family=Yatra+One&family=Ysabeau+Office:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Lato&family=Pacifico&family=Poppins&family=Quicksand&family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #848383;
+    border-radius: 7px;
+}
+
+.sidenav{
+    height: 100vh;
+    width: 380px;
+    position: fixed;
+    background-color: #f8f5f5;
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sidenav2{
+    height: 100vh;
+    width: 400px;
+}
+
+
+
+.container{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 75%;
+    background-color: white;
+    text-align: justify;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    height: 60px;
+    width: 100%;
+    background-color:#4285F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: white;
+    gap: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.head:hover{
+    background-color:#1661da;
+    font-size:24.8px;
+
+}
+
+.roles{
+    display: flex;
+    flex-direction: column;
+}
+
+.roles span{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e4e3e3;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: rgb(114, 114, 114);
+    transition: 0.3s;
+}
+
+.roles span:hover{
+    background-color: #dadddc;
+    cursor: pointer;
+}
+
+.roles-active{
+    background-color: #dadddc;
+}
+
+.title{
+    letter-spacing: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-family: 'Lato', sans-serif;
+    color: #d0d0d0;
+}
+
+/* Container Styling begins here */
+
+.posters{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    /* background-color: #0F9D58; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    color:#9e9c9c;
+}
+
+.title-head{
+    margin-top: 20px;
+    color:#9e9c9c;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    width: 100%;
+
+}
+
+.cards{
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.card-img img{
+    object-fit: contain;
+}
+
+.card-img:hover{
+    transform: scale(1.05);
+    filter:blur(4px)
+    
+}
+
+.flyers{
+    width: 100%;
+}
+.ui-ux{
+    width: 100%;
+}
+
+.videos{
+    width: 100%;
+}
+
+.video{
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.video span{
+    font-size: 25px;
+    color: #848383;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Lato', sans-serif;
+
+}

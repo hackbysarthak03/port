@@ -1,5 +1,5 @@
-function sendMail() {
-
+function sendMail(e) {
+e.preventDefault();
 const serviceID = "service_e0v9afn";
 const templateID = "template_aqnpcjf";
 
