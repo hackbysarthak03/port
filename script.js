@@ -5,7 +5,7 @@
 /* ============= To download CV ================== */
 
 function downloadCV(){
-    window.open('https://drive.google.com/file/d/1G7iarHR4bpBrKNSLgELbQFFOA3_s331d/view?usp=sharing');
+    window.open('https://drive.google.com/file/d/1u08iy71Us-oKN3egStuuTU3Csli7ctSU/view?usp=sharing');
 }
 
 function openLinkedIn(){
