@@ -79,7 +79,7 @@ font-family: 'Ysabeau Office', sans-serif;
 }
 .box1{
     font-family: 'Jost', sans-serif;
-    height: 30vh;
+    height: 90vh;
     width: 90%;
     bottom: 0;
     display: flex;
@@ -545,7 +545,7 @@ padding-left: 5%;
 
 @media(max-width:800px){
     .box1{
-        height: 40vh;
+        height: 80vh;
     }
 }
 
